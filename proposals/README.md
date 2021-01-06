@@ -1,3 +1,3 @@
 # Active proposal
 
-[Focus change](Focus-change.md)
+[Focus change](focus-change.md)
