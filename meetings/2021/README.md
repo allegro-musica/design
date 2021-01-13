@@ -6,3 +6,10 @@ Meetings for 2021
 
 - Review the content
 - Review the designs and infrastructure
+
+## January 13
+
+[notes for Jan 13](13-01-2021.md)
+
+- Discuss the change of requirements and new purpose of the app
+- View possible design of the new app

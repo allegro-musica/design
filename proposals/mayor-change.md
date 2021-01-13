@@ -1,9 +1,9 @@
 ## Mayor change
 
 * [x] Proposed
-* [ ] Prototype: Not Started
-* [ ] Implementation: Not Started
-* [ ] Specification: Not Started
+* [x] Prototype: Started
+* [ ] Implementation: Started
+* [ ] Specification: Started
 
 ## Summary
 [summary]: #summary

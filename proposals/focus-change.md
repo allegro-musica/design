@@ -1,9 +1,9 @@
 ## Focus change
 
 * [x] Proposed
-* [ ] Prototype: Not Started
-* [ ] Implementation: Not Started
-* [ ] Specification: Not Started
+* [x] Prototype: Started
+* [] Implementation: Started
+* [x] Specification: Started
 
 ## Summary
 [summary]: #summary
