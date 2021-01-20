@@ -13,3 +13,10 @@ Meetings for 2021
 
 - Discuss the change of requirements and new purpose of the app
 - View possible design of the new app
+
+## January 20
+
+[notes for Jan 20](20-01-2021.md)
+
+- Review the content
+- Recap of design and current app progress so far
