@@ -20,3 +20,10 @@ Meetings for 2021
 
 - Review the content
 - Recap of design and current app progress so far
+
+## January 27
+
+[notes for Jan 27](27-01-2021.md)
+
+- Review the development progress
+- Recap of design and current app progress so far
