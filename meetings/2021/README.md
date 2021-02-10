@@ -34,3 +34,10 @@ Meetings for 2021
 
 - Review the development progress
 - Recap of design and current app progress so far
+
+## February 10
+
+[notes for Feb 10](10-02-2021.md)
+
+- Prepare and refine the designs
+- Finish the design for the questions flowchart
