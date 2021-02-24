@@ -41,3 +41,11 @@ Meetings for 2021
 
 - Prepare and refine the designs
 - Finish the design for the questions flowchart
+
+## February 24
+
+[notes for Feb 24](24-02-2021.md)
+
+- Show finished designs and prepare for the pitch
+- Present the app and prepare for pitch demo
+- Show the content for the app
