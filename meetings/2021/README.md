@@ -49,3 +49,11 @@ Meetings for 2021
 - Show finished designs and prepare for the pitch
 - Present the app and prepare for pitch demo
 - Show the content for the app
+
+## March 10
+
+[notes for Mar 10](10-03-2021.md)
+
+- Show pitch animation
+- Discuss bugs and errors and show fixes for timer bug.
+- Discuss project specifications. 
