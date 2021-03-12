@@ -3,6 +3,7 @@ Design of the Allegro Quiz App
 
 Repository for design specification for the Allegro Quiz App. This is where new project specification are developed and specified.
 
+### The business case has changed... Soon the new business case will be updated
 
 ## Business case
 
