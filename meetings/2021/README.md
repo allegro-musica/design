@@ -57,3 +57,11 @@ Meetings for 2021
 - Show pitch animation
 - Discuss bugs and errors and show fixes for timer bug.
 - Discuss project specifications. 
+
+## March 17
+
+[notes for Mar 17](17-03-2021.md)
+
+- Add content to app design
+- Discuss app authentication
+- Discuss app content
