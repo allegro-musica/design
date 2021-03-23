@@ -142,7 +142,7 @@ The technologies we use for logging and tracing
 
 #### Metrics
 
-![Metrics](./assets/digitalocean-kubernetes-nodes.png)
+![Metrics](./assets/digitalocean-kubernetes-metrics.png)
 
 #### Deployment
 
