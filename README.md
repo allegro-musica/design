@@ -19,9 +19,9 @@ Repository for design specification for the Allegro Quiz App. This is where new 
 - [Deployment](#deployment)
     
 
-# Collaborative tools
+## Collaborative tools
 
-## Versioning control
+#### Versioning control
 
 We are using GitHub to host
 
@@ -34,7 +34,7 @@ It allows us to manage the workflow of the project and plan the features that we
 going to implement into the project. In addition, we use versioning control to record
 the meetings so that we can see what have been done or discuss in a determinate day.
 
-## Discord
+#### Discord
 
 We are using Discord to:
 
@@ -46,15 +46,15 @@ We are using Discord to:
 Discord plays a key part on the project design because it allows us to have meetings
 and share our ideas.
 
-# Design
+## Design
 
-## UI
+### UI
 
 ![Homepage](./assets/homepage-screen.png)
 
 ![Quizzer](./assets/quizzer-screen.png)
 
-## Architecture
+### Architecture
 
 The architecture used are:
 
@@ -71,11 +71,11 @@ The architecture used are:
 
 Below a first draft of how the app could work with the different components
 
-# Development
+## Development
 
 A list of technologies we use for the app
 
-### Frontend
+#### Frontend
 
 - React & React Native 
   - We use react to ship the app to the end user 
@@ -84,7 +84,7 @@ A list of technologies we use for the app
 - Expo
   - Used to develop and build the React native project
 
-### Backend
+#### Backend
 
 - ASP.NET 5
   - Core part of the app
@@ -108,7 +108,7 @@ A list of technologies we use for the app
 
 ![FirstDraft](./assets/server-first-design.png)
 
-# Testing
+## Testing
 
 A list of tests we use:
 
@@ -116,7 +116,7 @@ A list of tests we use:
   - We use unit test before publishing the app, so we can avoid some issues in 
     production
     
-# Logging and tracing
+## Logging and tracing
 
 The technologies we use for logging and tracing
 
@@ -125,7 +125,7 @@ The technologies we use for logging and tracing
 - Datadog
   - Used to collect metrics and monitor the kubernetes cluster
 
-# Deployment
+## Deployment
 
 - Docker
     - Allows to have an invariant development/production environment
