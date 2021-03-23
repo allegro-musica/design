@@ -21,7 +21,7 @@ Repository for design specification for the Allegro Quiz App. This is where new 
 
 ## Collaborative tools
 
-#### **Versioning control**
+### Versioning control
 
 We are using GitHub to host
 
