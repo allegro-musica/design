@@ -133,6 +133,24 @@ The technologies we use for logging and tracing
     - Manages the orchestration of the different docker images and automatically
       scale up or down the pods based on the traffic
 
+## Hosting
+
+### Digitalocean
+
+![Hosting](./assets/digitalocean-hosting.png)
+
+#### Nodes
+
+![Nodes](./assets/digitalocean-kubernetes-nodes.png)
+
+#### Metrics
+
+![Metrics](./assets/digitalocean-kubernetes-nodes.png)
+
+#### Deployment
+
+![Deployment](assets/digitalocean-kubernetes-deployment.gif)
+
 ### The business case has changed... the old business case will be updated soon
 
 ## Business case
