@@ -34,7 +34,7 @@ It allows us to manage the workflow of the project and plan the features that we
 going to implement into the project. In addition, we use versioning control to record
 the meetings so that we can see what have been done or discuss in a determinate day.
 
-#### Discord
+### Discord
 
 We are using Discord to:
 
@@ -75,7 +75,7 @@ Below a first draft of how the app could work with the different components
 
 A list of technologies we use for the app
 
-#### Frontend
+### Frontend
 
 - React & React Native 
   - We use react to ship the app to the end user 
@@ -84,7 +84,7 @@ A list of technologies we use for the app
 - Expo
   - Used to develop and build the React native project
 
-#### Backend
+### Backend
 
 - ASP.NET 5
   - Core part of the app
