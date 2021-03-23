@@ -3,6 +3,136 @@ Design of the Allegro Quiz App
 
 Repository for design specification for the Allegro Quiz App. This is where new project specification are developed and specified.
 
+# Contents
+
+- [Collaborative tools](#collaborative-tools)
+    - [Versioning control](#versioning-control)
+    - [Discord](#discord)
+- [Design](#design)
+    - [UI](#ui)
+    - [Architecture](#architecture)
+- [Development](#development)
+    - [Frontend](#frontend)
+    - [Backend](#backend)
+- [Testing](#testing)
+- [Logging and tracing](#logging-and-tracing)
+- [Deployment](#deployment)
+    
+
+# Collaborative tools
+
+## Versioning control
+
+We are using GitHub to host
+
+- Code source
+- Design
+- Meetings
+- Proposal
+
+It allows us to manage the workflow of the project and plan the features that we are
+going to implement into the project. In addition, we use versioning control to record
+the meetings so that we can see what have been done or discuss in a determinate day.
+
+## Discord
+
+We are using Discord to:
+
+- Voice meeting
+- Sharing ideas
+- Sharing images
+- Sharing resources
+
+Discord plays a key part on the project design because it allows us to have meetings
+and share our ideas.
+
+# Design
+
+## UI
+
+![Homepage](./assets/homepage-screen.png)
+
+![Quizzer](./assets/quizzer-screen.png)
+
+## Architecture
+
+The architecture used are:
+
+- Microservices
+  - We use microservices because it allows to decouple the logic of the app, in addition
+    it allows to have a scalable system
+- Messaging pattern
+  - We are using the messaging pattern because it allows to use events whenever the
+    user interact with the app or whenever we need to send events to the clients
+- Domain Driven Design
+  - We are using the domain driven design because it allows to understand the domain
+    problems, but the design we currently use could change based on the problems we
+    will face in the future.
+
+Below a first draft of how the app could work with the different components
+
+# Development
+
+A list of technologies we use for the app
+
+### Frontend
+
+- React & React Native 
+  - We use react to ship the app to the end user 
+- @microsoft/signalr
+  - Package used to keep a websocket connection between the server and the client
+- Expo
+  - Used to develop and build the React native project
+
+### Backend
+
+- ASP.NET 5
+  - Core part of the app
+- ASP.NET SignalR & WebSocket
+  - Websocket server that manages the connection between the server and client, in 
+    addition it received and send quizzes events
+- Websocket and REST
+  - The websocket server is used to tell the clients about events happening, and 
+    the REST server is used to create quizzes and start games 
+- Event Bus
+  - The event bus is used to dispatch quizzes events, for example when a quiz starts
+    or when it ends
+- MassTransit
+  - Used to connect to RabbitMQ and dispatch event
+- gRPC
+  - Internal communication between microservices using protobuf
+- Redis
+  - Used to keep the state and data protection keys
+- MongoDB
+  - Used to keep the quiz data
+
+![FirstDraft](./assets/server-first-design.png)
+
+# Testing
+
+A list of tests we use:
+
+- Unit test
+  - We use unit test before publishing the app, so we can avoid some issues in 
+    production
+    
+# Logging and tracing
+
+The technologies we use for logging and tracing
+
+- Serilog
+  - Allows to log errors and discover potential bugs before the app is shipped
+- Datadog
+  - Used to collect metrics and monitor the kubernetes cluster
+
+# Deployment
+
+- Docker
+    - Allows to have an invariant development/production environment
+- Kubernetes
+    - Manages the orchestration of the different docker images and automatically
+      scale up or down the pods based on the traffic
+
 ### The business case has changed... the old business case will be updated soon
 
 ## Business case
