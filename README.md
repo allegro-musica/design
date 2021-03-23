@@ -43,9 +43,6 @@ We are using Discord to:
 - Sharing images
 - Sharing resources
 
-Discord plays a key part on the project design because it allows us to have meetings
-and share our ideas.
-
 ## Design
 
 ### UI
