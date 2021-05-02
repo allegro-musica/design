@@ -65,3 +65,17 @@ Meetings for 2021
 - Add content to app design
 - Discuss app authentication
 - Discuss app content
+
+## April 21
+
+[notes for Apr 17](21-04-2021.md)
+
+- Discuss the final steps
+
+## April 28
+
+[notes for Apr 28](28-04-2021.md)
+
+- Develop detailed plan and gather all planning done so far
+- Add authentication with Google
+- Finish the content and convert to markdown
